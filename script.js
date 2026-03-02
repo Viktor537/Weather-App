@@ -37,7 +37,6 @@
   };
   searchBtn.addEventListener("click", async () => {
     const coords = await getCoordinates();
-    
     if (!coords) {
       console.log("Въведете град")
       return;
